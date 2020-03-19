@@ -1,0 +1,253 @@
+body{
+    color: black;
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+.share li{
+    display: inline;
+margin-top: 0em;
+margin-right: 8px;
+
+}
+.share a{
+    text-decoration: none;
+    text-emphasis: none;
+    text-decoration-color: none;
+    text-decoration-style: none;
+    list-style: none;
+    list-style-type: none;
+color: indigo;
+    font-size: 1.3rem;
+}
+#site{
+    
+
+    width: 75%;
+    float: right;
+}
+.buttn{
+    border: none;
+    width: 36px;
+    height: 20px;
+    padding-bottom: 3rem;
+    background-color: white;
+}
+  .menu-btn {
+    display: block;
+   
+    margin: 1em;
+    width: 36px;
+    transform: translate(-50%,-50%);  
+   
+  }
+  
+  .menu-btn:before,
+  .menu-btn:after {
+    background-color: rgb(255, 0, 0);
+    content: '';
+    display: block;
+    height: 4px;
+    transition: all 200ms ease-in-out;
+  }
+  .menu-btn:before {
+    box-shadow: 0 10px 0 rgb(255, 0, 0);
+    margin-bottom: 16px;
+  }
+  .menu-btn:hover:before {
+    box-shadow: 0 0 0 rgb(179, 0, 0);
+    transform: translateY(10px) rotate(45deg);
+  }
+  .menu-btn:hover:after{
+    transform: translateY(-10px) rotate(-45deg);
+  }
+#site  #bars{
+    width: 50px;
+    height: 50px;
+}
+.share{
+    border-bottom: #ff0000 4px ridge;
+    text-align: right;
+    padding-bottom: 2rem;
+}
+.share .logo{
+    float:left;
+    font-size: 1.5rem;
+     color:black;
+}
+.share .logo strong{
+  font-size: 1.8rem;
+}
+.wrapper{
+    background-color:#fafafa;
+    width: 22%;
+}
+#menu .major h2{
+    border-bottom: rgb(255, 0, 0) 2px solid;
+    width: min-content;
+    margin-left: 1.5rem;
+    margin-bottom: 1.7rem;
+}
+
+
+.hide{
+    display: none;
+}
+#menu li{
+    list-style: none;
+    list-style-type: none;
+    margin-bottom: 1.0rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(185, 184, 184);
+    
+}
+#menu a{
+    text-decoration: none;
+    text-emphasis: none;
+    text-decoration-color: none;
+    text-decoration-style: none;
+    text-transform: uppercase;
+    color: black;
+font-size: 1rem;
+
+}
+#menu button{
+    text-decoration-style:none ;
+     font-size: 1rem;
+        text-decoration: none;
+        margin: 0;
+        border: none;
+        background: none;
+        width:100%;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+        text-transform: uppercase;
+      
+}
+.inner #search form{
+    width: 90%;
+    
+    margin-left: 8px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.inner #search input{
+border: none;
+background-color:#fafafa ;
+text-align: center;
+margin-top:5px;
+}
+.inner #search form{
+    height: 30px;
+    border: 2px solid indigo;
+    align-items: center;
+    border-radius: 20%;
+}
+#menu li:last-child{
+    margin-bottom: 4rem;
+    border-bottom: none;
+
+}
+#banner img{
+  
+  
+    height: 383.59px;
+  width: 45%;
+
+}
+.content p{
+width: 90%;
+padding-bottom: 1.5rem;
+line-height: 1.5em;
+}
+.content{
+    float: left;
+    width: 50%;
+}
+header h1{
+    font-size: 3rem;
+}
+.actions li a{
+        text-decoration: none;
+    
+    
+}
+.actions li{
+    list-style-type: none;
+    
+
+}
+header p{
+    text-transform: uppercase;
+}
+#banner{
+    margin-top: 5rem;
+    border-bottom: 2px solid rgb(107, 107, 107);
+    padding-bottom: 7rem;
+}
+#inner p{
+    font-size: 2rem;
+}
+.mini-posts img{
+    width: 100%;
+    height:30%;
+}
+li{
+    list-style-type: none;
+}
+#sidebar .major h2{
+    padding-bottom: 1rem;
+    border-bottom: 4px solid red;
+    width: fit-content;
+}
+.posts img{
+    width:80%;
+    height: 338.9px;
+ 
+    
+}
+.posts article{
+    width: 50%;
+    float: left;
+   padding-bottom: 2rem;
+ 
+   padding-top: 1rem;
+   
+}
+.posts article p{
+    width: 80%;
+    line-height: 1.3em;
+}
+
+.features article{
+width: 50%;
+float: left;
+}
+.features article i{
+    font-size: 100px;
+    border-style: outset;
+    color: red;
+    padding: 3px 3px 3px 3px ;
+}
+.actions li{
+    list-style-type: none;
+    border: 2px solid rgb(179, 0, 0);
+    width: 20%;
+    line-height: 3rem;
+    text-align: center;
+    background-color: black;
+}
+.actions li a{
+    
+    text-decoration: none;
+    
+    color: white;
+
+}
+#banner .actions li{
+    text-align: center;
+}
+#dude{
+    display: none;
+}
